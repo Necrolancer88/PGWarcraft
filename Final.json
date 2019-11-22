@@ -1,0 +1,187 @@
+{ "titulo":"Personajes del World of Warcraft",
+  "subtitulo":"Clases, Razas y Facciones",
+  "active": true,
+  "personajes": [
+    {
+      "raza": "Humano",
+      "urlImagen": "humano.jpg",
+      "faccion": "Alianza",
+      "clase": [
+        "Cazador",
+        " Sacerdote",
+        " Rogue",
+        " Guerrero",
+        " Paladin",
+        " Brujo",
+        " Mago",
+        " Caballero de la Muerte."
+      ]
+    },
+    {
+      "raza": "Enano",
+      "urlImagen": "enano.jpeg",
+      "faccion": "Alianza",
+      "clase": [
+        "Cazador",
+        " Sacerdote",
+        " Rogue",
+        " Guerrero",
+        " Paladin",
+        " Brujo",
+        " Mago",
+        " Caballero de la Muerte.",
+        " Chaman"
+      ]
+    },
+    {
+      "raza": "Gnomo",
+      "urlImagen": "gnome.jpeg",
+      "faccion": "Alianza",
+      "clase": [
+        "Rogue",
+        " Guerrero",
+        " Brujo",
+        " Mago."
+      ]
+    },
+    {
+      "raza": "Elfo Nocturno",
+      "urlImagen": "nelf.jpeg",
+      "faccion": "Alianza",
+      "clase": [
+        "Druida",
+        " Cazador",
+        " Sacerdote",
+        " Rogue",
+        " Guerrero",
+        " Caballero de la Muerte",
+        " Cazador de Demonios",
+        " Mago"
+      ]
+    },
+    {
+      "raza": "Draenei",
+      "urlImagen": "draenei.jpeg",
+      "faccion": "Alianza",
+      "clase": [
+        "Cazador",
+        " Sacerdote",
+        " Guerrero",
+        " Chaman",
+        " Mago",
+        " Paladin"
+      ]
+    },
+    {
+      "raza": "Huargen",
+      "urlImagen": "huargen.jpeg",
+      "faccion": "Alianza",
+      "clase": [
+        "Caballero de la Muerte",
+        " Druida",
+        " Cazador",
+        " Mago",
+        " Sacerdote",
+        " Guerrero",
+        " Rogue",
+        " Brujo"
+      ]
+    },
+    {
+      "raza": "Orcos",
+      "urlImagen": "orco.jpeg",
+      "faccion": "Horda",
+      "clase": [
+        "Cazador",
+        " Brujo",
+        " Sacerdote",
+        " Chaman",
+        " Guerrero"
+      ]
+
+    },
+    {
+      "raza": "Troll",
+      "urlImagen": "troll.jpeg",
+      "faccion": "Horda",
+      "clase": [
+        "Cazador",
+        " Sacerdote",
+        " Rogue",
+        " Guerrero",
+        " Paladin",
+        " Brujo",
+        " Mago",
+        " Caballero de la Muerte"
+      ]
+    },
+    {
+      "raza": "Tauren",
+      "urlImagen": "tauren.jpeg",
+      "faccion": "Horda",
+      "clase": [
+        "Druida",
+        " Cazador",
+        " Chamán",
+        " Guerrero"
+      ]
+    },
+    {
+      "raza": "No-Muerto",
+      "urlImagen": "nm.jpeg",
+      "faccion": "Horda",
+      "clase": [
+        "Cazador",
+        " Sacerdote",
+        " Rogue",
+        " Guerrero",
+        " Brujo",
+        " Mago",
+        " Caballero de la Muerte"
+      ]
+    },
+    {
+      "raza": "Elfo de Sangre",
+      "urlImagen": "belf.jpeg",
+      "faccion": "Horda",
+      "clase": [
+        "Cazador",
+        " Sacerdote",
+        " Rogue",
+        " Guerrero",
+        " Brujo",
+        " Mago",
+        " Caballero de la Muerte",
+        " Paladín"
+      ]
+    },
+    {
+      "raza": "Goblin",
+      "urlImagen": "goblin.jpeg",
+      "faccion": "Horda",
+      "clase": [
+        "Cazador",
+        " Sacerdote",
+        " Rogue",
+        " Guerrero",
+        " Brujo",
+        " Mago",
+        " Caballero de la Muerte"
+      ]
+    },
+    {
+      "raza": "Pandaren",
+      "urlImagen": "pandaren.jpeg",
+      "faccion": "Neutral",
+      "clase": [
+        "Cazador",
+        " Sacerdote",
+        " Rogue",
+        " Guerrero",
+        " Brujo",
+        " Mago",
+        " Caballero de la Muerte"
+      ]
+    }
+  ]
+}

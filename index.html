@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>World of Warcraft</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" type="Wow.png" href="wow.ico" />
+    <meta name"viewport" content="width*device-width, user-scalable=no, initial-scale=1.0, maximum.scale=1.0, minimun-scale=1.0">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+        </header>
+        <section>
+        </section>
+        <script type="text/javascript">
+            var cabecera = document.querySelector('header');
+            var section = document.querySelector('section');
+            var solicitud = new XMLHttpRequest();
+            solicitud.open('GET', 'final.json');
+            solicitud.responseType = 'json';
+            solicitud.send();
+            solicitud.onload = function () {
+                var hitos = solicitud.response;
+                poblarCabecera(hitos);
+                generarContenido(hitos);
+            }
+
+            function poblarCabecera(hitos) {
+                var miTitulo = document.createElement('h1');
+                var miSubTitulo = document.createElement('h3');
+                miTitulo.textContent = hitos['titulo'];
+                miSubTitulo.textContent = hitos['subtitulo'];
+                cabecera.appendChild(miTitulo);
+                cabecera.appendChild(miSubTitulo);
+            }
+
+            function generarContenido(hitos) {
+                for (var i = 0; i < hitos['personajes'].length; i++) {
+                    var producto = document.createElement('article');
+                    var miH4 = document.createElement('h4');
+                    var imagen = document.createElement('img');
+                    var miPara1 = document.createElement('p');
+                    var miPara2 = document.createElement('p');
+
+                    miH4.textContent = hitos['personajes'][i].raza;
+                    imagen.src = hitos['personajes'][i].urlImagen;
+                    imagen.width = "150";
+                    miPara1.textContent = hitos['personajes'][i].faccion;
+                    miPara2.textContent = hitos['personajes'][i].clase;
+
+                    producto.appendChild(miH4);
+                    producto.appendChild(imagen);
+                    producto.appendChild(miPara1);
+                    producto.appendChild(miPara2);
+
+                    section.appendChild(producto);
+                }
+            }</script>
+    </div>
+</body>
+</html>

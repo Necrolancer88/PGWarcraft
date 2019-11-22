@@ -1,0 +1,67 @@
+﻿* {
+    margin: 10px;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+@font-face {
+    font-family: warcraft;
+    src: url(wc.ttf);
+}
+
+header {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: warcraft;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+article {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+article p {
+    text-align: center;
+    font-size: 18px;
+}
+body {
+    background-color: black;
+    color: palegoldenrod;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 2rem auto;
+    height: 20px;
+    width: 200px;
+}
+img {
+    display: block;
+    border-radius: 25%;
+    position: relative;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 6px solid palegoldenrod;
+}
